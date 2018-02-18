@@ -14,6 +14,11 @@ Debugging functionality is provided out of box in standard Eclipse installation.
 
 To begin with, install "GDB Hardware Debugging" plugin by opening Eclipse and going to `Help` > `Install` New Software.
 
+.. figure:: ../../_static/install-GDB_HW_Debugging.JPG
+        :align: center
+        :alt: Download plugin of GDB Hardware Debugging
+        :figclass: align-center
+
 Once installation is complete, configure debugging session following steps below. Please note that some of configuration parameters are generic and some are project specific. This will be shown below by configuring debugging for "blink" example project. If not done already, add this project to Eclipse workspace following guidance in section :doc:`Build and Flash with Eclipse IDE <../../get-started/eclipse-setup>`.  The source of :example:`get-started/blink` application is available  in :idf:`examples` directory of ESP-IDF repository.
 
 1.  In Eclipse go to `Run` > `Debug Configuration`. A new window will open. In the window's left pane double click "GDB Hardware Debugging" (or select "GDB Hardware Debugging" and press the "New" button) to create a new configuration.
